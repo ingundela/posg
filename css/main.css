@@ -33,12 +33,15 @@ img{
     background: #fff;
     border-bottom: 3px solid #e60000;
 }
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-    color: #1ABB9C!important;
-    font-weight: 600;
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.6)!important;
 }
-.navbar-light .navbar-nav .nav-link span{
-    color: red!important;
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #e60000!important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 /*--banner image--*/
