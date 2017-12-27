@@ -114,6 +114,9 @@ img{
 .btn.first:hover{
     border: 1px solid #fff;
 }
+.btn.first:focus {
+    outline: 0 !important;
+}
 /*--services--*/
 .service{
     padding: 100px 0;
