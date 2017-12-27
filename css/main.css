@@ -52,7 +52,7 @@ img{
     top: 0;
     bottom: 0;
     height: 100vh;
-    z-index: -10;
+    z-index: 1;
     display: flex;
     align-items: center;
 }
@@ -99,7 +99,7 @@ img{
     letter-spacing: 1px;
 }
 
-#hero .first{
+.btn.first{
     font-size: 1.3rem;
     color: #fff;
     background: #264d00;
@@ -110,6 +110,9 @@ img{
     z-index: 3;
     position: relative;
     cursor: pointer !important;
+}
+.btn.first:hover{
+    border: 1px solid #fff;
 }
 /*--services--*/
 .service{
