@@ -195,8 +195,8 @@ img{
     margin: 10px 0;
     font-weight: 600;
 }
-.thumbnail{
-    width: 400px;
+.thumbnail img{
+    width: auto;
     height: 400px;
 {
 /*--Footer--*/
