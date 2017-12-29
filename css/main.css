@@ -195,10 +195,10 @@ img{
     margin: 10px 0;
     font-weight: 600;
 }
-.thumbnail{
+.thumbnail img{
     width: auto;
     height: 400px;
-{
+}
 /*--Footer--*/
 .footer{
     background: #001a00;
