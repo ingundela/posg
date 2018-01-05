@@ -24,7 +24,6 @@ img{
     display: block;
     max-width: 100%;
     height: auto;
-    width: auto;
     text-align: center;
 }
 
@@ -36,13 +35,18 @@ img{
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.6)!important;
 }
+.navbar-light .navbar-nav .active{
+    color: #e60000!important;
+    font-weight: 600;
+}
 .navbar-light .navbar-nav .nav-link:hover{
     color: #e60000!important;
-    -webkit-transition: all .5s ease;
+    -webkit-transition: asll .5s ease;
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     transition: all .5s ease;
 }
+
 
 /*--banner image--*/
 #hero{
@@ -74,7 +78,7 @@ img{
     max-width: 60rem;
     margin: 0 auto;
     text-align: left;
-    padding-top: 80px;
+    margin-top: 70px;
 }
 .hero-caption h2{
     text-transform: uppercase;
@@ -82,26 +86,25 @@ img{
     z-index: 3;
     color: #fff;
     font-size: 2rem;
-    font-weight: 900;
+    font-weight: 700;
+    margin: 20px 0;
     letter-spacing: 3px;
 }
 .hero-caption h3{
     font-size: 2rem;
-    color: #a6a6a6;
-    font-weight: 800;
+    color: #d9d9d9;
+    font-weight: 400;
     letter-spacing: 1px;
     z-index: 3;
     position: relative;
-    margin: 20px 0;
 }
 .hero-caption h5{
     position: relative;
     z-index: 3;
     color: #8c8c8c;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
 }
-
 .btn.first{
     font-size: 1.3rem;
     color: #fff;
@@ -109,10 +112,11 @@ img{
     border: 1px solid #fff;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     z-index: 3;
+    top: 20px;
     position: relative;
-    cursor: pointer !important;
+    cursor: pointer;
 }
 .btn.first:hover{
     border: 1px solid #fff;
@@ -175,30 +179,66 @@ img{
 }
 
 /*--trabalhos--*/
-.trabalho{
+.feature-work{
     padding: 100px 0;
 }
-.trabalho h2{
+.feature-work h2{
     margin: 10px 0;
     color: #5d5d5d;
     font-weight: 800;
     font-size: 1.7rem !important;
 }
-.trabalho h5{
+.feature-work h5{
     padding: 30px 0;
     color: #e60000;
     font-size: 1.2rem;
     max-width: 700px;
     margin: 0 auto;
 }
-.work h4{
+
+.container-fluid a:hover{
+    text-decoration: none;
+
+}
+.portfolio-amostra{
     margin: 10px 0;
-    font-weight: 600;
 }
-.thumbnail img{
-    width: auto;
-    height: 400px;
+.gallery{
+    margin-bottom: 25px;
+
 }
+.filter-button {
+    border-radius: 5px !important;
+    text-align: center;
+    background: #264d00;
+    color: #fff !important;
+}
+
+.filter-button:hover{
+    background: #67824c;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default:active .filter-button:active{
+    background-color: #42B32F;
+    color: white;
+}
+.container img:hover{
+    opacity: 0.5;
+    transition: 0.7s;
+}
+.img-thumbnail{
+    width: 300px!important;
+    height: 300px!important;
+    border: 1px solid #264d00!important;
+    background-color: #264d00!important;
+    object-fit: cover;
+    object-position: center center;
+}
+
 /*--Footer--*/
 .footer{
     background: #001a00;
@@ -231,7 +271,7 @@ img{
 .footer i{
     font-weight: 800;
     color: #fff;
-}
+}s
 footer{
     background: #001a00;
     overflow: hidden;
@@ -322,6 +362,11 @@ footer a:hover{
     font-size: 1.7rem; 
     padding-bottom: 20px;
 }
+.quem h4{
+    font-size: 1.3rem;
+    color: #e60000;
+    font-weight: 600;
+}
 .quem p{
     text-align: justify;
 }
@@ -331,43 +376,6 @@ footer a:hover{
     margin-left: 2px;
 }
 .quem-box{
-    padding: 10px;
+    margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
